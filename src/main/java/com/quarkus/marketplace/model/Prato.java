@@ -1,18 +1,6 @@
 package com.quarkus.marketplace.model;
 
 import java.math.BigDecimal;
-import java.util.stream.StreamSupport;
-
-import io.smallrye.mutiny.Uni;
-
-import io.smallrye.mutiny.Multi;
- 
-import io.vertx.mutiny.pgclient.PgPool;
-import io.vertx.mutiny.sqlclient.Row;
-import io.vertx.mutiny.sqlclient.RowSet;
-import java.math.BigDecimal;
-import java.util.stream.StreamSupport;
-import io.vertx.mutiny.sqlclient.Tuple;
 
 
 public class Prato {
