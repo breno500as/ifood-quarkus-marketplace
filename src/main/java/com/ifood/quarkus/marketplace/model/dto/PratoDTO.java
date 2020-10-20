@@ -1,4 +1,4 @@
-package com.quarkus.marketplace.model.dto;
+package com.ifood.quarkus.marketplace.model.dto;
 
 import java.math.BigDecimal;
 import io.vertx.mutiny.sqlclient.Row;

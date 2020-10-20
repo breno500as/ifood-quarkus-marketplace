@@ -1,9 +1,9 @@
-package com.quarkus.marketplace.model.db;
+package com.ifood.quarkus.marketplace.model.db;
 
 import java.math.BigDecimal;
 import java.util.stream.StreamSupport;
 
-import com.quarkus.marketplace.model.dto.PratoDTO;
+import com.ifood.quarkus.marketplace.model.dto.PratoDTO;
 
 import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.Uni;
@@ -33,8 +33,9 @@ public class Prato {
 
     public static Multi<PratoDTO> findAll(PgPool client, Long idRestaurante) {
         Uni<RowSet<Row>> preparedQuery = client
-                .preparedQuery("SELECT * FROM prato where prato.restaurante_id = $1 ORDER BY nome ASC").execute(
-                        Tuple.of(idRestaurante));
+                .preparedQuery("SELECT * FROM prato where prato.restaurante_id = $1 ORDER BY nome ASC")
+                //O objeto Tuple permite passar quantos parâmetros necessários para utilizar na query
+                .execute(Tuple.of(idRestaurante));
         return unitToMulti(preparedQuery);
     }
     

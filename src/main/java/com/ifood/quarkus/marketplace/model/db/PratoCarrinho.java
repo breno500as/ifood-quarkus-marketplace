@@ -1,4 +1,4 @@
-package com.quarkus.marketplace.model.db;
+package com.ifood.quarkus.marketplace.model.db;
 
 import java.util.ArrayList;
 import java.util.List;

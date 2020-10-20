@@ -1,4 +1,4 @@
-package com.quarkus.marketplace.api;
+package com.ifood.quarkus.marketplace.api;
 
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;
@@ -7,8 +7,8 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.quarkus.marketplace.model.db.Prato;
-import com.quarkus.marketplace.model.dto.PratoDTO;
+import com.ifood.quarkus.marketplace.model.db.Prato;
+import com.ifood.quarkus.marketplace.model.dto.PratoDTO;
 
 import io.smallrye.mutiny.Multi;
 import io.vertx.mutiny.pgclient.PgPool;
