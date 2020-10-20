@@ -1,4 +1,4 @@
-package com.quarkus.marketplace.model;
+package com.quarkus.marketplace.model.db;
 
 import io.vertx.mutiny.pgclient.PgPool;
 import io.vertx.mutiny.sqlclient.Tuple;

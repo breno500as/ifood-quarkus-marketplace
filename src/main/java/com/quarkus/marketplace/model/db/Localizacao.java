@@ -1,4 +1,4 @@
-package com.quarkus.marketplace.model;
+package com.quarkus.marketplace.model.db;
 
 public class Localizacao {
 	
