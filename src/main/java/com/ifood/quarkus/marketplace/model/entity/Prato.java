@@ -1,4 +1,4 @@
-package com.ifood.quarkus.marketplace.model.db;
+package com.ifood.quarkus.marketplace.model.entity;
 
 import java.math.BigDecimal;
 import java.util.stream.StreamSupport;

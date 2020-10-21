@@ -8,8 +8,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.ifood.quarkus.marketplace.model.db.Prato;
 import com.ifood.quarkus.marketplace.model.dto.PratoDTO;
+import com.ifood.quarkus.marketplace.model.entity.Prato;
 
 import io.smallrye.mutiny.Multi;
 import io.vertx.mutiny.pgclient.PgPool;

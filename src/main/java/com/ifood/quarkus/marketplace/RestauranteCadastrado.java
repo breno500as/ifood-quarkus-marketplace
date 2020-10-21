@@ -5,7 +5,7 @@ import javax.inject.Inject;
 
 import org.eclipse.microprofile.reactive.messaging.Incoming;
 
-import com.ifood.quarkus.marketplace.model.db.Restaurante;
+import com.ifood.quarkus.marketplace.model.entity.Restaurante;
 
 import io.vertx.core.json.JsonObject;
 import io.vertx.mutiny.pgclient.PgPool;

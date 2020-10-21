@@ -12,8 +12,8 @@ import org.eclipse.microprofile.openapi.annotations.media.Content;
 import org.eclipse.microprofile.openapi.annotations.media.Schema;
 import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
 
-import com.ifood.quarkus.marketplace.model.db.Prato;
 import com.ifood.quarkus.marketplace.model.dto.PratoDTO;
+import com.ifood.quarkus.marketplace.model.entity.Prato;
 
 import io.smallrye.mutiny.Multi;
 import io.vertx.mutiny.pgclient.PgPool;
