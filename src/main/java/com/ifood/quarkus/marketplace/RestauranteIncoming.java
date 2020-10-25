@@ -11,7 +11,7 @@ import io.vertx.core.json.JsonObject;
 import io.vertx.mutiny.pgclient.PgPool;
 
 @ApplicationScoped
-public class RestauranteCadastrado {
+public class RestauranteIncoming {
 	
 	
 	@Inject
